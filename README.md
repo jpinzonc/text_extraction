@@ -1,6 +1,6 @@
 # Text Extraction
 
-GitHub repositories about the subject of **TEXT EXTRACTION** from natural or document images.
+GitHub repositories on the subject of **TEXT EXTRACTION** from natural or document images.
 
 ## chongyangtao / Awesome-Scene-Text-Recognition
 
@@ -10,19 +10,31 @@ A curated list of resources dedicated to scene text localization and recognition
 
 ## subokita / Robust-Text-Detection
 
-Text Detection System with MSER , SWT and Text Verification
+Robust Text Detection implementation based on Chen, Huizhong, et al.
+
+> Language: cpp(xcode)
+
+> Paper: "Robust Text Detection in Natural Images with Edge-Enhanced Maximally Stable Extremal Regions." Image Processing (ICIP), 2011 18th IEEE International Conference on. IEEE, 2011. [[pdf]](http://www.stanford.edu/%7Ehchen2/papers/ICIP2011_RobustTextDetection.pdf)
 
 * https://github.com/subokita/Robust-Text-Detection
 
 ## yestinsong/Text-Detection
 
-Robust Text Detection implementation based on http://www.stanford.edu/~hchen2/papers/ICIP2011_RobustTextDetection.pdf
+Text Detection System with MSER , SWT(Stroke Width Transform) and Text Verification(FFT and PCA)
+
+> Paper: "Robust Text Detection in Natural Images with Edge-Enhanced Maximally Stable Extremal Regions." Image Processing (ICIP), 2011 18th IEEE International Conference on. IEEE, 2011. [[pdf]](http://www.stanford.edu/%7Ehchen2/papers/ICIP2011_RobustTextDetection.pdf)
+
+> Language: cpp(g++)
 
 * https://github.com/yestinsong/Text-Detection
 
 ## lluisgomez / text_extraction 
 
-This code is the implementation of the method proposed in the paper “Multi-script text extraction from natural scenes” (Gomez & Karatzas) to appear in ICDAR2013 conference. 
+This code is the implementation of the method proposed in the paper.
+
+> Language: cpp
+
+> Paper: Lluís Gómez and Dimosthenis Karatzas, "Multi-script Text Extraction from Natural Scenes", Document Analysis and Recognition (ICDAR), 2013 12th International Conference on. [[pdf]](http://ieeexplore.ieee.org/document/6628665/)
 
 * https://github.com/lluisgomez/text_extraction
 
@@ -30,11 +42,19 @@ This code is the implementation of the method proposed in the paper “Multi-scr
 
 A Keras/Theano implementation of "Reading Text in the Wild with Convolutional Neural Networks" by M Jaderberg et.al.
 
+> Language: python
+
+> Paper: Max Jaderberg, Karen Simonyan, Andrea Vedaldi, Andrew Zisserman, "Reading Text in the Wild with Convolutional Neural Networks" [[pdf]](https://arxiv.org/abs/1412.1842)
+
 * https://github.com/mathDR/reading-text-in-the-wild
 
 ## roseperrone / character-detector
 
-Adapts a neural net for use as a pill imprint character detector
+Adapts a neural net for use as a pill imprint character detector.
+
+> Language: matlab
+
+> Paper: T. Wang, D. Wu, A. Coates, A. Ng, "End-to-End Text Recognition with Convolutional Neural Networks", in ICPR 2012. [[pdf]](ai.stanford.edu/~ang/papers/ICPR12-TextRecognitionConvNeuralNets.pdf)
 
 * https://github.com/roseperrone/character-detector
 
@@ -42,17 +62,33 @@ Adapts a neural net for use as a pill imprint character detector
 
 The first open-source project that detects the font of a text in a image. 
 
+> Language: javascript
+
+> Library: [Tesseract](http://tesseract.projectnaptha.com/), [Jimp](https://github.com/oliver-moran/jimp)
+
 * https://github.com/Sirvasile/Typefont
 
 ## dreamdragon/text-detection
 
 Text Detection on Android Devices
 
+> Language: cpp
+
+> Video: [Literate PR2- short version](https://www.youtube.com/watch?v=de7mwCBMH98)
+
+> Paper: M. Zhu, K. Derpanis, K. Daniilidis, "Literate PR2: Text detection and recognition for indoor environment", Robotics Operating System (ROS), 2011.
+
 * https://github.com/dreamdragon/text-detection
 
 ## chenxinpeng/SSD_scene_text_detection
 
-Detect text in natural images with SSD, Single Shot Detection 
+Detect text in natural images with SSD(Single Shot Detection)
+
+> Language: python
+
+> Paper: Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang Fu, Alexander C. Berg, "SSD: Single Shot MultiBox Detector" [[pdf]](www.cs.unc.edu/~wliu/papers/ssd.pdf)
+
+> Library: [SSD(Single Shot MultiBox Detector)](https://github.com/weiliu89/caffe/tree/ssd)
 
 * https://github.com/chenxinpeng/SSD_scene_text_detection
 
