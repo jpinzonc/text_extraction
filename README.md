@@ -2,13 +2,13 @@
 
 GitHub repositories on the subject of **TEXT EXTRACTION** from natural or document images.
 
-## chongyangtao / Awesome-Scene-Text-Recognition
+## chongyangtao/Awesome-Scene-Text-Recognition
 
 A curated list of resources dedicated to scene text localization and recognition
 
 * https://github.com/chongyangtao/Awesome-Scene-Text-Recognition
 
-## subokita / Robust-Text-Detection
+## subokita/Robust-Text-Detection
 
 Robust Text Detection implementation based on Chen, Huizhong, et al.
 
@@ -28,7 +28,7 @@ Text Detection System with MSER , SWT(Stroke Width Transform) and Text Verificat
 
 * https://github.com/yestinsong/Text-Detection
 
-## lluisgomez / text_extraction 
+## lluisgomez/text_extraction 
 
 This code is the implementation of the method proposed in the paper.
 
@@ -38,23 +38,25 @@ This code is the implementation of the method proposed in the paper.
 
 * https://github.com/lluisgomez/text_extraction
 
-## mathDR / reading-text-in-the-wild
+## mathDR/reading-text-in-the-wild
 
 A Keras/Theano implementation of "Reading Text in the Wild with Convolutional Neural Networks" by M Jaderberg et.al.
 
 > Language: python
 
+> Framework: Keras, Theano
+
 > Paper: Max Jaderberg, Karen Simonyan, Andrea Vedaldi, Andrew Zisserman, "Reading Text in the Wild with Convolutional Neural Networks" [[pdf]](https://arxiv.org/abs/1412.1842)
 
 * https://github.com/mathDR/reading-text-in-the-wild
 
-## roseperrone / character-detector
+## roseperrone/character-detector
 
 Adapts a neural net for use as a pill imprint character detector.
 
 > Language: matlab
 
-> Paper: T. Wang, D. Wu, A. Coates, A. Ng, "End-to-End Text Recognition with Convolutional Neural Networks", in ICPR 2012. [[pdf]](ai.stanford.edu/~ang/papers/ICPR12-TextRecognitionConvNeuralNets.pdf)
+> Paper: T. Wang, D. Wu, A. Coates, A. Ng, "End-to-End Text Recognition with Convolutional Neural Networks", in ICPR 2012. [[pdf]](http://ai.stanford.edu/~ang/papers/ICPR12-TextRecognitionConvNeuralNets.pdf)
 
 * https://github.com/roseperrone/character-detector
 
@@ -86,7 +88,9 @@ Detect text in natural images with SSD(Single Shot Detection)
 
 > Language: python
 
-> Paper: Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang Fu, Alexander C. Berg, "SSD: Single Shot MultiBox Detector" [[pdf]](www.cs.unc.edu/~wliu/papers/ssd.pdf)
+> Framework: Caffe
+
+> Paper: Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang Fu, Alexander C. Berg, "SSD: Single Shot MultiBox Detector" [[pdf]](http://www.cs.unc.edu/~wliu/papers/ssd.pdf)
 
 > Library: [SSD(Single Shot MultiBox Detector)](https://github.com/weiliu89/caffe/tree/ssd)
 
@@ -94,17 +98,29 @@ Detect text in natural images with SSD(Single Shot Detection)
 
 ##  jugg1024/Text-Detection-with-FRCN
 
-Text-Detection-using-py-faster-rcnn-framework 
+Text-Detection-using-py-faster-rcnn-framework
+
+> Language: python
+
+> Framework: Caffe
 
 * https://github.com/jugg1024/Text-Detection-with-FRCN
 
 ##  dennis1088/gaze-text-detection
 
-Text detection in natural scene images using the Stoke Width Transform. 
+Text detection in natural scene images using the SWT(Stoke Width Transform).
+
+> Framework: Tesseract
+
+> Paper: "Detecting Text in Natural Scenes with Stroke Width Transform", [[pdf]](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/1509.pdf)
 
 * https://github.com/dennis1088/gaze-text-detection
 
 ##  johnoneil/MangaTextDetection
+
+> Language: python
+
+> Framework: Tesseract
 
 Experiments in text localization and detection in raw manga scans. Mostly using OpenCV python API. 
 
@@ -112,7 +128,9 @@ Experiments in text localization and detection in raw manga scans. Mostly using 
 
 ##  developer-aj/TextDetection
 
-Text Detection using Stroke Width Transform
+Text Detection using SWT(Stroke Width Transform)
+
+> Language: python
 
 * https://github.com/developer-aj/TextDetection
 
